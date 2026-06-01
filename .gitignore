@@ -1,0 +1,36 @@
+CLAUDE.MD
+
+# Environment variables — NEVER commit these
+.env
+
+# LinkedIn saved session — contains auth cookies, never commit
+backend/linkedin-session.json
+.env.local
+.env.*.local
+
+# Node dependencies — can be restored with npm install
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+build/
+
+# Generated Prisma client
+backend/src/generated/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# TXT
+prompt.txt
